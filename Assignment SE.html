@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+ <style>
+      .title
+    {
+        background-color:black;
+        
+        color: burlywood;
+        line-height: normal;
+        font-size:300%;
+    }
+   
+    .col{
+        border: solid black 2px;
+    }
+</style>
+   
+      <title>Cover Designer</title>
+  </head>
+    
+    
+    
+  <body>
+    <div class="title">
+       <h1  class="text-center">Book Cover Designer</h1>
+      </div> 
+     
+ <div class="container">
+          <div class="row">
+    <div class="col">
+      <form name="myform" o><br>
+          <h2 class="text-primary"  >Fill in the info</h2><hr>
+          <div class="form-group">
+              <!--<label ><h4  class="text-info"><small>Book Title</small></h4></label>-->
+              <input id="title" type="text" class="form-control" placeholder="Book Title" >
+            </div>
+          <div class="form-group"  >
+             <select class="custom-select" id="font1" name="font1">
+                 <option selected> choose font</option>
+                <optgroup label="Sans-Serif Fonts">
+                 <option value="Comic Sans MS">Comic Sans MS</option>
+                 <option value="Arial Black">Arial Black</option>
+                 <option value="Impact">Impact</option>
+                 <option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+                 <option value="Tahoma">Tahoma</option>
+                 <option value="Trebuchet MS">Trebuchet MS</option>
+                 <option value="Verdana">Verdana</option>
+                 </optgroup>
+                 <optgroup label="Serif Fonts">
+                 <option value="Georgia,">Georgia,</option>
+                 <option value="Palatino Linotype">Palatino Linotype</option>
+                 <option value="Times New Roman">Times New Roman</option>
+                 </optgroup>
+                 <optgroup label="Monoscape Fonts">
+                 <option value="Courier New">Courier New</option>
+                 <option value="Lucida Console">Lucida Console</option>
+                 </optgroup>     
+                 <option value=""></option>
+                 <option value=""></option>
+                    
+              </select>
+          </div>
+          <hr>
+            <div class="form-group">
+                <!--<label ><h4 class="text-info"><small>Book Subitle</small></h4></label>-->
+              <input id="subtitle" type="text" class="form-control" placeholder="Book Subtitle">
+            </div>
+           <div class="form-group" >
+             <select class="custom-select" id="font2" name="font1">
+                 <option selected> choose font</option>
+                <optgroup label="Sans-Serif Fonts">
+                 <option value="Comic Sans MS">Comic Sans MS</option>
+                 <option value="Arial Black">Arial Black</option>
+                 <option value="Impact">Impact</option>
+                 <option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+                 <option value="Tahoma">Tahoma</option>
+                 <option value="Trebuchet MS">Trebuchet MS</option>
+                 <option value="Verdana">Verdana</option>
+                 </optgroup>
+                 <optgroup label="Serif Fonts">
+                 <option value="Georgia,">Georgia,</option>
+                 <option value="Palatino Linotype">Palatino Linotype</option>
+                 <option value="Times New Roman">Times New Roman</option>
+                 </optgroup>
+                 <optgroup label="Monoscape Fonts">
+                 <option value="Courier New">Courier New</option>
+                 <option value="Lucida Console">Lucida Console</option>
+                 </optgroup>     
+                 <option value=""></option>
+                 <option value=""></option>
+                    
+              </select>
+          </div>
+            <hr>
+            <div class="form-group">
+                <!--<label ><h4  class="text-info"><small>Author</small></h4></label>-->
+              <input id="author" type="text" class="form-control" placeholder="Author Name">
+            </div>
+                    <div class="form-group" >
+             <select class="custom-select" id="font3" name="font1">
+                 <option selected> choose font</option>
+                <optgroup label="Sans-Serif Fonts">
+                 <option value="Comic Sans MS">Comic Sans MS</option>
+                 <option value="Arial Black">Arial Black</option>
+                 <option value="Impact">Impact</option>
+                 <option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+                 <option value="Tahoma">Tahoma</option>
+                 <option value="Trebuchet MS">Trebuchet MS</option>
+                 <option value="Verdana">Verdana</option>
+                 </optgroup>
+                 <optgroup label="Serif Fonts">
+                 <option value="Georgia,">Georgia,</option>
+                 <option value="Palatino Linotype">Palatino Linotype</option>
+                 <option value="Times New Roman">Times New Roman</option>
+                 </optgroup>
+                 <optgroup label="Monoscape Fonts">
+                 <option value="Courier New">Courier New</option>
+                 <option value="Lucida Console">Lucida Console</option>
+                 </optgroup>     
+                 <option value=""></option>
+                 <option value=""></option>
+                    
+              </select>
+          </div>
+          <hr>
+          <div class="form-group">
+             <select class="custom-select" id="background" name="background">
+                 <option selected>choose background color</option>
+                 <option value="Red">Red</option>
+                 <option value="Black">Black</option>
+                 <option value="White">White</option>
+                 <option value="Blue">Blue</option>
+                 <option value="Green">Green</option>
+                 <option value="yellow">yellow</option>
+                 <option value="Maroon">Maroon</option>
+                 <option value="Purple">Purble</option>
+                 <option value="Pink">Pink</option>
+                 <option value="Navy">Navy</option>
+                 <option value="Olive">Olive</option>
+                 <option value="Orange">Orange</option>
+                 <option value="Orchid">Orchid</option>
+                 <option value="Tomato">Tomato</option>
+                 <option value="Violet">Violet</option>
+                 <option value="Wheat">Wheat</option>
+                 <option value="SpringGreen">SprngGreen</option>
+                 <option value="Aqua">Aqua</option>
+                 
+              </select>
+            </div>
+         
+          <hr>
+          <div class="form-group">
+              <input id="pub" type="text" class="form-control" placeholder="Publisher">
+            </div>
+          <hr>
+          <div class="form-group">
+             <select class="custom-select" id="pubyear" name="pubyear">
+                 <option selected>publishing year</option>
+                  <option value=2002>2002</option>
+                  <option value=2003>2003</option>
+                  <option value=2004>2004</option>
+                  <option value=2005>2005</option>
+                  <option value=2006>2006</option>
+                  <option value=2007>2007</option>
+                  <option value=2008>2008</option>
+                  <option value=2009>2009</option>
+                 <option value=2010>2010</option>
+                 <option value=2011>2011</option>
+                 <option value=2012>2012</option>
+                 <option value=2013>2013</option>
+                 <option value=2014>2014</option>
+                 <option value=2015>2015</option>
+                 <option value=2016>2016</option>
+                  <option value=2017>2017</option>
+                  <option value=2018>2018</option>
+                  <option value=2019>2019</option>
+              </select>
+            </div>
+         <br>
+          <div class="form-group">
+              <button class="btn btn-dark btn-lg btn-block" id="generate" onclick="formdata(); return false;">Generate</button>
+            </div>
+          <br>
+          </form>
+              </div>
+              
+              
+              <div id="bkg" class="col"><br>
+                  <div class="container"><br><br>
+                  <h1 class="text-center" id="h1" style="font-size: 350%"></h1>
+                      
+                  <br>
+                  <h2 class="text-center" id="h2"  ></h2>
+                  <br>
+                  <br>
+                  <br>
+                  <br><br><br><br><br><br> 
+                  <h3 class="text-center" id="h3" ></h3>
+                  <br>
+                  <br><br><br><br><br>
+                      <br><br><br><br><br><br>
+                  <h5 class="text-center" id="h5"></h5>
+                  
+                  <h6 class="text-center"  id="h6"></h6>
+              </div>
+     
+     <br>
+      </div>
+      
+     </div>
+     <img src="images.jpg" >
+     </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+              
+              <script type="text/javascript">
+      function formdata(){
+ var title = document.getElementById("title").value;
+var subtitle = document.getElementById("subtitle").value;
+var author = document.getElementById("author").value;
+var bgc = document.getElementById("background").value;
+var pub = document.getElementById("pub").value;
+var pubyear = document.getElementById("pubyear").value;
+var font1 = document.getElementById("font1").value;
+var font2 = document.getElementById("font2").value;
+          var font3 = document.getElementById("font3").value;
+          
+    document.getElementById("h1").innerHTML =  title;
+    document.getElementById("h2").innerHTML = subtitle;
+    document.getElementById("h3").innerHTML = author;
+    document.getElementById("h5").innerHTML= pub ;
+    document.getElementById("h6").innerHTML = pubyear;
+          document.getElementById("h1").style.fontFamily = font1;
+          document.getElementById("h2").style.fontFamily = font2;
+          document.getElementById("h3").style.fontFamily = font3; 
+          document.getElementById("bkg").style.backgroundColor = bgc;
+          
+        
+};
+        </script>
+  </body>
+</html>
